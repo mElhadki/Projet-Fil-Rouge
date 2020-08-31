@@ -1,0 +1,119 @@
+body{
+
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+
+}
+.image {
+  
+    background-image: url(../Images/Header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 91vh;
+    margin-top: -20px;
+}
+.background-overlay{
+
+    background-color: #001d35;
+    opacity: 0.4;
+    height:  91vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+.image .heading {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  position: relative;
+  z-index: auto;    
+  
+}
+.image p {
+  text-align: center;
+  padding: 20px 60px;
+}
+.image p .btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 1.2em;
+  position: relative;
+  z-index: auto;    
+}
+.image p .btn:hover {
+  color: #c57ed3;
+  border-color: #c57ed3;
+}
+
+.navbar {
+  height: 100px;
+  background-color: rgba(0,0,0,0.07);
+  border: none;
+  color: white;
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.navbar-default .navbar-brand {
+
+  margin-top: 20px;
+  
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #cecece;
+  margin: 10px 5px 5px 5px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    
+  color: #ffffff;
+
+}
+.navbar-default .navbar-nav .active{
+
+    color: #ffffff;
+}
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: #490d40;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+  color: #c57ed3;
+  -webkit-transition: color 1s ease 0s;
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  color: #c57ed3;
+  transition: color 1s ease 0s;
+}
+
+.about {
+  color: #490d40;
+  height: 600px;
+  text-align: center;
+  margin-top: -20px;
+  
+}
+.about h2 {
+  padding-top: 220px;
+}
+.about p {
+  padding: 20px 80px;
+}

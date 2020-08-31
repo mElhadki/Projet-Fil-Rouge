@@ -1,0 +1,45 @@
+
+.part2 {
+    font-size: 14px;
+    line-height: 26px;
+    color: #818181; /* grey */
+    font-weight: 400;
+    position: relative;
+    top:150px;
+    padding-bottom:150px;
+    font-family: Roboto;
+    z-index: -100;
+}
+      .h1, .h2, .h3, .h4, .h5, .h6, a, h1, h2, h3, h4, h5, h6, p a {
+    color: #303030;
+   
+}
+.h1, h1 {
+    font-size: 30px;
+    line-height: 1.25em;
+}
+.h2, h2{
+  font-size: 24px;
+}
+.h3, h3 {
+    font-size: 17px;
+}
+h1, .h1, .title h1, h2, .h2, h3, .h3 {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover, p a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.drop_down .wide .second .inner>ul>li>a, .h2, .h3, .h5, .h6, h2, h3, h5, h6, nav.main_menu>ul>li>a {
+    text-transform: uppercase;
+}
+.h2, .h3, h2, h3 {
+    font-weight: 600;
+  letter-spacing: 1px;
+}
+
+p{
+      margin-bottom: 0;
+}

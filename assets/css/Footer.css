@@ -1,0 +1,48 @@
+/* footer */
+footer{
+  background-color: white;
+  padding-top: 50px;
+}
+a:hover{
+    text-decoration:none;
+  }
+  .section-padding {
+  padding: 10px 0;
+  }
+  
+  .bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+  }
+  .copyright a {
+    color: #ffb049;
+    margin-left: 3px;
+    padding-right: 3px;
+  }
+  .bottom p {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .copyright p span {
+    color: #d1caca;
+  }
+  .bottom .copyright p, .bottom .copyright a:hover{
+    color: #efeff3f5;
+  }
+  
+  .list-inline-item a{
+    color: #cecece;
+    margin-left: 10px;
+  }
+  .list-inline-item a:hover{
+    color: #8f8c8c;
+    cursor: pointer;
+  }
+  .pt-4 h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+
+  
+  }

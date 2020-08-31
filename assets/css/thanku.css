@@ -1,0 +1,84 @@
+.MA{
+    position:absolute;
+    top:300px;
+    width:100%; 
+    display:flex; 
+    justify-content:center; 
+    position: relative;
+    top: 200px;
+    width: 100%;
+    margin-bottom: 300px;
+
+}
+
+.avtar {
+	max-width: 100%;
+}
+/* No Need To Add */
+.jumbotron {
+   
+    background-color: #f4f4f4;
+}
+.jumbotron h2 {
+	color: #000;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 0.25em 0;
+}
+.jumbotron .lead {
+	color: #000;
+}
+.jumbotron .container-login100-form-btn {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+}
+
+.checkMark {
+
+	animation: show 1s linear forwards 0.5s;
+	border: 2px solid #ffb049;
+	border-radius: 50%;
+	height: 100px;
+	margin: 0 auto;
+	padding: 1.5em;
+	width: 100px;
+}
+.checkMark path {
+	
+	animation: draw 0.5s linear forwards 1s;
+	fill: none;
+	stroke: #ffb049;
+	stroke-miterlimit: 10;
+	stroke-width: 40px;
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+}
+.checkMark svg {
+	overflow: visible;
+}
+
+@keyframes draw {
+	from {
+		stroke-linecap: round;
+	}
+	to {
+		stroke-linecap: round;
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.link{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #ffb049;
+    margin: 20px 0;
+    display: inline-block;}

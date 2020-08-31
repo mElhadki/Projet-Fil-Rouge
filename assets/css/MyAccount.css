@@ -1,0 +1,197 @@
+
+.navVertical {
+    display:flex;
+    text-align: left;
+    list-style: none;
+    padding: 0px;
+    position: relative;
+    top: 200px;
+    margin-bottom: 500px;
+  }
+
+.M-Account .nn li a {
+    color: #333333;
+    text-decoration: none;
+}
+.M-Account .nn li .active {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+  .M-Account .nn > li {
+    width:210px;
+    background: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    padding: 15px 5px 15px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 1px solid #DCDCDC;
+  }
+  
+  .M-Account .nn > li:hover {
+    background: #E6E6E6;
+    color: #337ab7;
+  }
+  .M-Account .nn > li:active {
+    background: #E6E6E6;
+    color: #337ab7;
+  }
+  
+  .M-Account .nn > li{
+    border-left: 4px solid #FFC50A;
+  }
+  .arrow {
+    float: right;
+    padding: 0px 10px
+  }
+  .M-Account{
+    margin-right:50px;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+  .container-fluid form{
+    font-family: auto;
+  }
+  .align-center {
+    text-align: center;
+  }
+  
+  .align-right {
+    text-align: right;
+  }
+  
+  .valign-middle {
+    vertical-align: middle !important;
+  }
+
+
+
+  input[type=text],input[type=password]{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    box-sizing:border-box;
+    border: 1px solid white;
+    
+  }
+  
+
+  /* button home */
+.btnm1 {
+  z-index: 1;
+  hyphens: manual;
+  border: 0;
+  font-style: inherit;
+  margin: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  display: inline-block;
+  fill: #fff;
+  text-align: center;
+  transition: all .3s;
+  outline: 0;
+  box-shadow: none;
+  text-decoration: none;
+  border-style: solid;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1;
+  width: auto;
+  font-size: 13px;
+  border-radius: 0;
+  padding-top: 16px;
+  padding-right: 25px;
+  padding-bottom: 16px;
+  padding-left: 25px;
+  background-color: #fff;
+  border-color: #fff;
+  color: #000000;
+  margin-right: 12px;
+}
+
+
+.btnm1:hover {
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+}
+
+  @media screen and (max-width:300px){
+    .btncan,.btnsign{
+      width:100%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navVertical {
+      flex-direction: column;
+     
+    }
+    .M-Account {
+      /* width: 100%; */
+      align-content: center;
+      align-self: center;
+      margin-bottom: 50px;
+  }
+    .table-responsive thead,
+    .table-responsive tbody,
+    .table-responsive tfoot,
+    .table-responsive tr,
+    .table-responsive th,
+    .table-responsive td {
+      display: block;
+    }
+    .table-responsive thead {
+      display: none;
+    }
+    .table-responsive .align-center,
+    .table-responsive .align-right {
+      text-align: inherit;
+    }
+    .table-responsive tr {
+      border-top: 1px solid #ddd;
+    }
+    .table-responsive tr:first-child {
+      border: 0;
+    }
+    .table-responsive > tbody > tr > td {
+      padding-left: 50%;
+      border-top-color: rgba(221, 221, 221, 0.5);
+    }
+    .table-responsive > tbody > tr > td:first-child {
+      border: 0;
+    }
+    .table-responsive [data-label] {
+      position: relative;
+    }
+    .table-responsive [data-label]:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 8px;
+      content: attr(data-label);
+      font-weight: bold;
+    }
+    .btn .visible-xs {
+      display: inline-block !important;
+    }
+  }
+  .parent-collapsed {
+    display: none;
+  }
+  
+  .collapsed .parent-expanded {
+    display: none;
+  }
+  .collapsed .parent-collapsed {
+    display: inline-block;
+  }
+ 

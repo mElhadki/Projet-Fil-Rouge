@@ -1,0 +1,162 @@
+#Cart{
+    position: relative;
+    top: 100px; 
+    padding-bottom:150px;
+}
+.col-xs-8 {
+    width: 100%;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+     border: 1px solid transparent; 
+    border-radius: 4px;
+     box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+}
+.btn-link:focus, .btn-link:hover {
+    
+    text-decoration: none;
+}
+.col-xs-6 {
+    
+    margin: auto;
+}
+.col-xs-4 {
+    margin: auto;
+}
+.glyphicon:before {
+    
+    color: #FBAE32;
+    font-size: 15px;
+    
+}
+.glyphicon span{
+    color: #FBAE32;
+}
+
+.panel-info {
+    border-color:#f4f4f4;
+}
+.row {
+    display: flex;
+    
+}
+.panel-info>.panel-heading {
+    color: #FBAE32;
+    background-color: white;
+    border-color: #f4f4f4;
+}
+
+#ShopContinue {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
+#ShopContinue
+{
+  transition: all 0.5s;
+  position: relative;
+  cursor: pointer;
+  width: auto;
+  float: right;
+}
+
+#ShopContinue:hover
+{
+  padding-right: 24px;
+  padding-left:8px;
+  color: #ffffff;
+}
+
+#ShopContinue:hover:after {
+  opacity: 1;
+  right: 10px;
+  color: #fff;
+}
+
+#ShopContinue:after {
+  content: '\00bb';
+  opacity: 0;
+  color: #ffffff;
+  position: relative;
+  left: 10px;
+}
+
+#checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
+#checkout
+{
+  transition: all 0.5s;
+  position: relative;
+  cursor: pointer;
+  width: auto;
+  float: right;
+}
+
+#checkout:hover
+{
+  background-color: black;
+  border: 2px solid black;
+  padding-right: 24px;
+  padding-left:8px;
+  color: #ffffff;
+}
+
+#checkout:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+#checkout:after {
+  content: '\00bb';
+  opacity: 0;
+  color: #ffffff;
+  position: relative;
+  left: 10px;
+}
+.h6, h6 {
+    
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .row{
+        flex-direction: column;
+    }
+    .col-xs-2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.col-xs-4 {
+    width: 100%;
+}
+.col-xs-6 {
+    width: 100%;
+}
+.col-xs-3 {
+    width: 100%;
+    
+}
+.col-xs-9 {
+    width: 100%;
+}
+.col-xs-9 h4{
+    text-align: center;
+}
+#checkout {
+    
+    width: 100%;
+}
+}
