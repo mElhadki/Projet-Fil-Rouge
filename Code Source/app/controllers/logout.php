@@ -1,6 +1,6 @@
 <?php
-include('../database/connect.php');
-include('../database/db.php');
+include('../models/connect.php');
+include('../models/db.php');
 session_start();
 unset($_SESSION['idU']);
 unset($_SESSION['message']);

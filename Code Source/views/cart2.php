@@ -1,6 +1,6 @@
 <?php
-include('../app/database/connect.php');
-include('../app/database/db.php');
+include('../app/models/connect.php');
+include('../app/models/db.php');
 include('../app/controllers/middleware.php');
 showCart();
 include('../app/controllers/category.php');
@@ -163,11 +163,16 @@ include('../app/controllers/cart.php');
                             <div class="col-xs-3">
                                 <a href="checkout2.php">
                                     
-                                    <button type="button" name="checkout" id="checkout" class="btn btn-primary btn-sm btn-block">
-                                    checkout
+                                    <button style="margin-bottom: 2px;" type="button" name="checkout" id="checkout" class="btn btn-primary btn-sm btn-block">
+                                    checkout with cash
                                         </button>
                                 </a>
-
+                                <a href="checkoutCC.php">
+                                    
+                                    <button type="button" name="checkout" id="checkout" class="btn btn-primary btn-sm btn-block">
+                                    checkout with card
+                                        </button>
+                                </a>
                             </div>
 
                         </div>

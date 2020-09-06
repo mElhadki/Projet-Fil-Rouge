@@ -1,6 +1,6 @@
 <?php
-include('../app/database/connect.php');
-include('../app/database/db.php');
+include('../app/models/connect.php');
+include('../app/models/db.php');
 include('../app/helpers/validateUser.php');
 include('../app/controllers/users.php');
 include('../app/controllers/category.php');

@@ -1,6 +1,6 @@
 <?php
-include('../app/database/connect.php');
-include('../app/database/db.php');
+include('../app/models/connect.php');
+include('../app/models/db.php');
 include('../app/helpers/validateUser.php');
 include('../app/controllers/users.php');
 include('../app/controllers/category.php');
@@ -96,12 +96,12 @@ include('../app/controllers/orders.php');
   <!-- table container -->
   <div class="col-sm-9">
 
-    <table class="table table-striped table-hover table-responsive">
+    <table id="table" class="table table-striped table-hover table-responsive">
       <thead>
         <tr>
-          <th>Order Number</th>
-          <th>Status</th>
-          <th class="align-right">Price</th>
+          <th style="cursor: pointer;" onclick="sortCategory1()">Order Number <i class="fa fa-sort"></i></th>
+          <th style="cursor: pointer;" onclick="sortCategory2()">Status <i class="fa fa-sort"></i></th>
+          <th class="align-right" >Price</th>
           <th></th>
         </tr>
       </thead>
@@ -109,7 +109,7 @@ include('../app/controllers/orders.php');
       <?php
        $totalPrice = 0;
       foreach($orderUserGroup as $order): ?>
-        <tr>
+        <tr class="sorted">
           <td class="valign-middle" data-label="Order Number">
             <a href="#">#<?php echo $order['orderNumber'] ?></a>
           </td>
@@ -135,7 +135,7 @@ include('../app/controllers/orders.php');
       <?php 
      
       foreach($orderUserOne as $order): ?>
-        <tr>
+        <tr class="sorted">
           <td class="valign-middle" data-label="Order Number">
             <a href="#">#<?php echo $order['orderNumber'] ?></a>
           </td>
@@ -168,5 +168,16 @@ include('../app/controllers/orders.php');
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script>
+        function sortCategory1() {
+            w3.sortHTML('#table', '.sorted', 'td:nth-child(1)')
+        }
+        function sortCategory2() {
+            w3.sortHTML('#table', '.sorted', 'td:nth-child(2)')
+        }
+       
+    </script>
+   
 </body>
 </html>

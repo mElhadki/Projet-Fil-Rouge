@@ -1,7 +1,7 @@
 <?php
 include('../path.php');
-include(ROOT_PATH .'/app/database/connect.php');
-include(ROOT_PATH .'/app/database/db.php');
+include(ROOT_PATH .'/app/models/connect.php');
+include(ROOT_PATH .'/app/models/db.php');
 include(ROOT_PATH .'/app/controllers/middleware.php');
 showCheckout();
 include(ROOT_PATH .'/app/controllers/category.php');
